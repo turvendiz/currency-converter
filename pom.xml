@@ -14,7 +14,8 @@
 	<name>currency-converter</name>
 	<description>Currency converter test task</description>
 	<properties>
-		<java.version>16</java.version>
+		<java.version>15</java.version>
+		<lombok.version>1.18.18</lombok.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -39,6 +40,14 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+
+		<!-- Lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>${lombok.version}</version>
+			<scope>provided</scope>
 		</dependency>
 
 	</dependencies>
